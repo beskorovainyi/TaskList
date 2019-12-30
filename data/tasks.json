@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "name": "Изучить React.js",
+    "description": "Изучить основы React.js.",
+    "completed": true
+  },
+  {
+    "id": 1,
+    "name": "Использование React.js",
+    "description": "Разработать одностраничное приложение с использованием React.js.",
+    "completed": true
+  },
+  {
+    "id": 2,
+    "name": "Redux",
+    "description": "Добавить Redux.",
+    "completed": true
+  },
+  {
+    "id": 3,
+    "name": "Асинхронные экшены",
+    "description": "Использовать посредника Redux-Thunk",
+    "completed": true
+  },
+  {
+    "id": 4,
+    "name": "Раскрытие при клике",
+    "description": "При клике по названию задачи разворачивать ее описание с кнопкой 'Завершить'. Отправлять на сервер id завершенной задачи",
+    "completed": true
+  },
+  {
+    "id": 5,
+    "name": "Логика сервера",
+    "description": "Через REST-API отдаем json-файл с тасками. Принимаем id таски и в файле помечаем 'complete: true'. Бэк на Node.js",
+    "completed": true
+  },
+  {
+    "id": 6,
+    "name": "Фильтрация задач",
+    "description": "Сделать фильтрацию задач. Показать все, активные, выполненые.",
+    "completed": true
+  },
+  {
+    "id": 7,
+    "name": "Тесты",
+    "description": "Написать тесты для React-компонент, которые реализуют какую-то логику.",
+    "completed": true
+  }
+]

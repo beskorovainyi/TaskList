@@ -1,0 +1,25 @@
+'use strict';
+
+import React from 'react';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk'
+
+import reducers from './reducers';
+
+// Главный компонент
+import App from './components/App';
+
+// Создаем стор
+const store = createStore(
+    reducers,
+    applyMiddleware(thunk)
+);
+
+render (
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById('root')
+);
